@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>View Information</title>
+        <style>
+            body{
+                 background: linear-gradient(to right,
+                        #2c001e,  
+                        #6e0a1e,  
+                        #d84315,  
+                        #ff9800,  
+                        #ffeb3b );
+            }
+        .container{
+            margin: 170px 270px;
+            width: 900px;
+            height: 400px;
+            border: 2px solid black;
+            display: flex;
+            gap: 5px;
+        }
+        .second{
+            background-color: gray;
+        }
+        #btn{
+            width: 300px;
+            background-color: gray;
+        }
+        button{
+            width: 90px;
+            margin: 50px;
+        }
+
+        #h3{
+            background-color: green;
+            width: 590px;
+            padding: 3px;
+            color: white;
+            text-align: center;
+        }
+        #search{
+            background-color: gray;
+        }
+        #search label{
+            margin-left:30px;
+        }
+        #information{
+            display: flex;
+            background-color: peru;
+            color: white;
+            width: 595px;
+        }
+        .details{
+            display: flex;
+            height: 81.5px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="btn">
+                <button><a href="/PROJECT/viewInformation.html">Information of All Students</a></button>
+                <button><a href>Room Info</a></button>
+                <button><a
+                        href="/PROJECT/hostelManagement.html">Exit</a></button>
+            </div>
+
+            <div>
+                <div id="search">
+                    <label for>Enter Room No.</label>
+                    <input type="text">
+                    <button>Search</button>
+                </div>
+                <div class="second">
+                    <div id="h3"><h3>Information Of Students</h3></div>
+                    <div id="information">
+                        <ul>Room No.</ul>
+                        <ul>Name</ul>
+                        <ul>Contact</ul>
+                        <ul>Workplace</ul>
+                    </div>
+
+                    <div class="details">
+                        <ul>1</ul>
+                        <ul>xyz abc</ul>
+                        <ul>1234567890</ul>
+                        <ul>mgm's jnec</ul>
+                    </div>
+                    <div class="details">
+                        <ul>2</ul>
+                        <ul>Shailesh godghase</ul>
+                        <ul>1234567890</ul>
+                        <ul>jnec</ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

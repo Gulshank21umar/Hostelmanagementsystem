@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>In And Out</title>
+        <style>
+            body{
+                 background: linear-gradient(to right,
+                        #2c001e,  
+                        #6e0a1e,  
+                        #d84315,  
+                        #ff9800,  
+                        #ffeb3b );
+            }
+            #main{
+                margin: 200px 500px;
+                background-color: gray;
+                width: 550px;
+                gap: 20px;
+                height: 400px;
+            }
+            #header3{
+                background-color: green;
+                width: 250px;
+            }
+            #btn{
+                margin-left: 30px;
+            }
+
+            #outime{
+                margin-left: 100px;
+            }
+            input{
+                width: 200px;
+                margin-left: 10px;
+            }
+            #button{
+                margin: 20px 100px;
+            }
+            #exit{
+                margin:30px 150px;
+            }
+            a{
+               text-decoration: none;
+            }
+            button{
+                width: 100px;
+                height: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+
+            <div id="header3"><h3>---------Outtime---------</h3></div>
+            <div id="outime">
+                <label for="enterid">EnterID</label>
+                <input type="text">
+                <br><br>
+                <label for="purpose">Purpose</label>
+                <input type="text">
+                <button id="btn">Save</button>
+            </div>
+
+            <div id="second">
+                <div id="header3"><h3>---------Intime---------</h3></div>
+                <div id="outime">
+                    <label for="enterid">EnterID</label>
+                    <input type="text"><br><br>
+                    <label for="out">In Time </label>
+                    <input type="text">
+                    <button id="btn">Search Intime</button> <br>
+                    <button id="button">Before Time</button><br>
+                    
+                </div>
+                <div id="exit">
+                        <button id="buttons">Save</button>
+                        <button type="buttons" id="buttons"><a
+                                href="/PROJECT/hostelManagement.html">Exit</a></button>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

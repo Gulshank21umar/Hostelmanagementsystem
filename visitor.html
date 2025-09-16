@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitors</title>
+
+    <style>
+        body{
+                 background: linear-gradient(to right,
+                        #2c001e,  
+                        #6e0a1e,  
+                        #d84315,  
+                        #ff9800,  
+                        #ffeb3b );
+            }
+        #main{
+            display: flex;
+            width: 900px;
+            gap: 10px; 
+           margin: 100px 320px;
+        }
+       #Visitor{
+        width: 400px;
+        height: 400px;
+        background-color: gray;
+       }
+
+        #student{
+        width: 400px;
+        height: 400px;
+        background-color: gray;
+       }
+       #header{
+        margin-top: 140px;
+        margin-left: 320px;
+        margin-bottom: -95px;
+        background-color: green;
+        text-align: center;
+        padding-top: 5px;
+        width: 810px;
+        color: white;
+       }
+
+       label{
+        margin-left: 50px;
+        padding: 20px;
+       }
+       input{
+        margin-top: 20px;
+        width: 200px;
+       }
+
+       .btn{
+        margin: 20px 100px;
+        display: flex;
+        gap: 50px;
+        
+        height: 25px;
+
+       }
+       button {
+        width: 100px;
+        height: 25px;
+       }
+       a{
+        text-decoration: none;
+       }
+       #header3{
+        margin: 100px;
+        background-color: green;
+        text-align: center;
+        color: white;
+       }
+       #save{
+        margin: 70px 150px;
+        width: 100px;
+        height: 25px;
+       }
+    </style>
+</head>
+<body>
+    <div id="header"><h3>Visitor Information</h3></div>
+    <div id="main">
+        <div id="Visitor">
+            <label for="name">Name</label>
+            <input type="text" id="name"><br> <br>
+            <label for="contact">Contact</label>
+            <input type="text" id="contact"><br><br>
+            <label for="reason">Reason</label>
+            <input type="text" id="reason"><br><br>
+            <label for="address">Address</label>
+            <input type="text" id="address"><br><br>
+            <button id="save">Save</button>
+        </div>
+
+        <div id="student">
+            <label for="sname">Student Name</label>
+            <input type="text" id="sname"><br><br>
+            <div class="btn">
+                <button>Search</button>
+                <button>Reset</button>
+            </div>
+            <div id="roomno">
+                <label for="roomno">Room No</label>
+                <input type="text">
+            </div><br>
+            <div class="btn">
+                <button>Add Visitor</button>
+                <button><a href="/PROJECT/hostelManagement.html">Exit</a></button>
+            </div>
+            
+            <h3 id="header3">Successful.....!</h3>
+        </div>
+    </div>
+</body>
+</html>
