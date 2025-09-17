@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOSTEL MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="hostel.css">
+        <style>
+            #herosection{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    border: 2px solid white;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    #mainsection{
+        width: 100%;
+        height:300px;
+        display: flex;
+    }
+    #first{
+        padding: 15px;
+        width: 30%;
+        height: 100vh;
+        border: 2px solid white;
+        background-color: aqua;
+        text-align: center;
+    }
+
+    #second{
+        padding: 15px;
+        width: 70%;
+        height: 100vh;
+        border: 2px solid white;
+         background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+    }
+
+    button{
+        width: 120px;
+        height: 50px; 
+    }
+    a{
+        text-decoration: none;  
+    }
+    .btn a{
+        color: white;
+    }
+    label{
+         width: 120px;
+        height: 30px; 
+        margin-left: 15px;
+    }
+    input{
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 300px;
+        height: 30px;  
+    }
+   #second #inputfield{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 100px;
+    margin-left: 200px;
+    background: linear-gradient(to right,
+  #2c001e,  
+  #6e0a1e,  
+  #d84315,  
+  #ff9800,  
+  #ffeb3b   
+);
+
+   }
+   .btn{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #0000ffc0;
+    color: white;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+   }
+    </style>
+    </head>
+    <body>
+        <div id="herosection">
+            <h1>HOSTEL MANAGEMENT SYSTEM</h1>
+        </div>
+        <div id="mainsection">
+            <div id="first">
+                <button><a href="/PROJECT/AddStudent.html" target="_self">Add
+                        Student</a></button> <br><br>
+                <button><a href="/PROJECT/AddNewRoom.html" target="_self">Add
+                        New Room</a></button> <br><br>
+                <button><a href="/PROJECT/inAndOut.html" target="_self">In And
+                        Outtime</a></button> <br><br>
+                <button><a href="/PROJECT/visitor.html">Visitor</a></button>
+                <br><br>
+                <button><a href="/PROJECT/viewInformation.html">View
+                        Information</a></button> <br><br>
+                <button><a href="/PROJECT/leaveApplication.html">Leave
+                        Applicatio</a></button> <br><br>
+                <button>EXIT</button> <br><br>
+            </div>
+            <div id="second">
+                <div id="inputfield">
+                    <input type="text" placeholder="Enter your id "><br>
+                    <input type="password" placeholder="Enter password"><br><br>
+                    <button class="btn">Login</button>
+                    <button class="btn"><a href="/PROJECT/signup.html">SignUp</a></button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
